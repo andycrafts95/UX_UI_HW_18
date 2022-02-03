@@ -81,6 +81,41 @@
     padding-left: 7%;
     padding-right: 7%;
 }
+
+/* My skills section */
+#mySkills {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #117934;
+    height: 725px;
+    text-align: center;
+}
+.skillsBox {
+    display: flex;
+    flex-direction: row;
+   
+}
+/* my work section*/
+#myWork{
+    background-color: #b8275f;
+    display: grid;
+    grid-template-areas: Houndoogle DepartmentoftheInterior S0SforHumanitarianactions;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 500px;
+    height: 725px;
+    text-align: center;
+
+}
+.caseStudyBox{
+    grid-area: Houndoogle;
+    font-family:'Montserrat', sans-serif;
+   
+    
+}
 /* footer with contact info and social media buttons */
 .footer {
     background-color:#3a2d32;
