@@ -55,7 +55,7 @@
 .AboutMe {
     background-color: #3a2d32;
     border: none;
-    padding: 1%;
+    padding: 5%;
 }
 .aboutBlock {
     display: inline-block;
@@ -63,6 +63,7 @@
 /* personal headshot image */
 .bioImg { 
     width: 40%;
+    align-content: center;
    
 }
 /*container for about me text*/
@@ -83,38 +84,59 @@
 }
 
 /* My skills section */
-#mySkills {
+.skillFlex {
+    background-color: #3a2d32f5;
+    height: 500px;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.skillContainer{
     display: flex;
     flex-direction: row;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #117934;
-    height: 725px;
-    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
 }
 .skillsBox {
-    display: flex;
-    flex-direction: row;
-   
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 20%;
 }
 /* my work section*/
 #myWork{
-    background-color: #b8275f;
-    display: grid;
-    grid-template-areas: Houndoogle DepartmentoftheInterior S0SforHumanitarianactions;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 500px;
-    height: 725px;
-    text-align: center;
-
+    background-color: #3a2d32;
+    height: 500px;
+    padding: 5%;
+}
+#houndDoogle{
+    grid-area: houndDoogle;
+    width: 33%;
+}
+#DotI{
+    grid-area: DotI;
+    width: 33%;
+} 
+#Sos{
+    grid-area: SoS;
+}
+.caseStudyContainer{
+        display: grid;
+        grid-template-areas: houndDoogle DotI SoS;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns:1fr; 
 }
 .caseStudyBox{
-    grid-area: Houndoogle;
-    font-family:'Montserrat', sans-serif;
-   
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 /* footer with contact info and social media buttons */
 .footer {
