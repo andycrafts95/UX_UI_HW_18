@@ -116,7 +116,7 @@
 /* my work section coded with CSS grid*/
 #myWork{
     background-color: #3a2d32;
-    height: 700px;
+    height: 900px;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -134,8 +134,9 @@
 }
 .imageBox{
     grid-area: imageBox;
+    align-items: left;
+    justify-content: center;
 }
-
 .workGrid{
     display: grid;
     grid-template-rows: auto auto;
@@ -146,6 +147,7 @@
 .caseStudyBox{
     font-family: 'Montserrat', sans-serif;
     color: white;
+    align-content: flex-end;
 }
 .button {
     background-color: #6f6452; 
