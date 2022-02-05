@@ -105,6 +105,8 @@
     width: 100%;
 }
 .skillsBox {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -113,7 +115,7 @@
 /* my work section coded with CSS grid*/
 #myWork{
     background-color: #3a2d32;
-    height: 500px;
+    height: 700px;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -129,11 +131,16 @@
 #SoS{
     grid-area: SoS;
 }
-.caseStudyContainer{
+.imageBox{
+    grid-area: imageBox;
+}
+
+.workGrid{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 200px 200px 200px; 
-    grid-template-areas: houndDoogle DotI SoS;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto; 
+    grid-template-areas: 'imageBox imageBox imageBox'
+                            'houndDoogle DotI SoS';
 }
 .caseStudyBox{
     font-family: 'Montserrat', sans-serif;
