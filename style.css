@@ -53,7 +53,7 @@
 }
 /* container for about me text, resume button, and headshot */
 .AboutMe {
-    background-color: #3a2d32;
+    background-color: #3a2d32f5;
     border: none;
     padding: 5%;
     width: 100%;
@@ -89,7 +89,7 @@
 
 /* My skills section coded with CSS flex*/
 .skillSection {
-    background-color: #3a2d32f5;
+    background-color: #3a2d32;
     width: 100%;
     height: 700px;
     text-align: left;
@@ -101,7 +101,7 @@
 .skillContainer{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
     height: 400px;
     width: 100%;
@@ -125,7 +125,7 @@
 }
 /* my work section coded with CSS grid*/
 #myWork{
-    background-color: #3a2d32;
+    background-color: #3a2d32f5;
     height: 900px;
     width: 100%;
     padding-left: 5%;
