@@ -147,6 +147,16 @@
     align-items: center;
     justify-content: center;
 }
+.imageBox2{
+    grid-area: imageBox2;
+    align-items: center;
+    justify-content: center;
+}
+.imageBox3{
+    grid-area: imageBox3;
+    align-items: center;
+    justify-content: center;
+}
 .workImG{
     border-radius: 10px;
     height: 150px;
@@ -158,7 +168,7 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto auto; 
-    grid-template-areas: 'imageBox imageBox imageBox'
+    grid-template-areas: 'imageBox imageBox2 imageBox3'
                             'houndDoogle DotI SoS';
 }
 .caseStudyBox{
@@ -219,9 +229,9 @@
         grid-template-areas:
                             'imageBox'
                             'houndDoogle'
-                            'imageBox'
+                            'imageBox2'
                             'DotI'
-                            'imageBox'
+                            'imageBox3'
                             'SoS';
     }
 }
