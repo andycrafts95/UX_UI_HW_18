@@ -144,8 +144,14 @@
 }
 .imageBox{
     grid-area: imageBox;
-    align-items: left;
+    align-items: center;
     justify-content: center;
+}
+.workImG{
+    border-radius: 10px;
+    height: 150px;
+    width: 100px;
+    scale: 25%;
 }
 .workGrid{
     margin: 0px 5%;
